@@ -16,20 +16,24 @@ Este é um projeto de um **jogo ARPG isométrico**, inspirado no estilo de **Dia
 ---
 
 🖥 Tecnologias Utilizadas
+
 C++
 OpenGL
 GLFW
 GLM
 CUDA (Planejado para otimizações futuras)
+
 📚 Conceitos de Computação Gráfica
 🎯 Pipeline Gráfico
 Vertex Shader: Manipula vértices e transforma no espaço 3D.
 Fragment Shader: Define as cores finais dos pixels.
 Rasterização: Converte objetos geométricos em pixels renderizados.
+
 🎯 Transformações Utilizadas
 Projeção Ortográfica (Visão Isométrica)
 Transformação de Câmera com glm::lookAt()
 Manipulação de Matriz de Projeção com glm::ortho()
+
 📖 Referências
 OpenGL Documentation
 Learn OpenGL
