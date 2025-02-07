@@ -1,12 +1,3 @@
-📌 Próximo Passo: Criar o README.md
-O README.md é a página principal do repositório, servindo como guia para qualquer pessoa que acessar o projeto.
-
-Aqui está um modelo inicial bem estruturado:
-
-📜 README.md
-md
-Copy
-Edit
 # 🎮 Isometric ARPG - OpenGL & C++
 
 ![Isometric ARPG](https://your-image-link-here)  
