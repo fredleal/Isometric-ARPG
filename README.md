@@ -15,22 +15,6 @@ Este é um projeto de um **jogo ARPG isométrico**, inspirado no estilo de **Dia
 
 ---
 
-## 🚀 **Configuração do Ambiente**
-### 1️⃣ **Instalar as Dependências**
-```sh
-sudo apt install git cmake g++ glfw3 glm
-2️⃣ Clonar o Repositório
-sh
-Copy
-Edit
-git clone https://github.com/seu-usuario/Isometric-ARPG.git
-cd Isometric-ARPG
-3️⃣ Compilar o Projeto
-sh
-Copy
-Edit
-g++ src/opengl_tilemap.cpp src/Camera.cpp src/Tile.cpp src/glad.c -o build/opengl_tilemap -Iinclude -I./src -I/mingw64/include -L/mingw64/lib -lglfw3 -lopengl32
-./build/opengl_tilemap
 🖥 Tecnologias Utilizadas
 C++
 OpenGL
@@ -50,3 +34,22 @@ Manipulação de Matriz de Projeção com glm::ortho()
 OpenGL Documentation
 Learn OpenGL
 GLM Docs
+
+
+## 🚀 **Configuração do Ambiente**
+### 1️⃣ **Instalar as Dependências**
+```sh
+sudo apt install git cmake g++ glfw3 glm
+2️⃣ Clonar o Repositório
+sh
+Copy
+Edit
+git clone https://github.com/seu-usuario/Isometric-ARPG.git
+cd Isometric-ARPG
+3️⃣ Compilar o Projeto
+sh
+Copy
+Edit
+g++ src/opengl_tilemap.cpp src/Camera.cpp src/Tile.cpp src/glad.c -o build/opengl_tilemap -Iinclude -I./src -I/mingw64/include -L/mingw64/lib -lglfw3 -lopengl32
+./build/opengl_tilemap
+
